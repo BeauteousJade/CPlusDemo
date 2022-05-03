@@ -81,5 +81,4 @@ int main2() {
     cout << "isEquals = " << (red == green) << endl;
 
 
-
 }
