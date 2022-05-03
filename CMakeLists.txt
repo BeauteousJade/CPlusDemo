@@ -3,4 +3,4 @@ project(Demo)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Demo main.cpp cast.cpp array.cpp pointer.cpp)
+add_executable(Demo code/main.cpp code/cast.cpp code/array.cpp code/pointer.cpp)
