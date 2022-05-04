@@ -9,6 +9,8 @@
 
 using namespace std;
 
+// 申明的是参数地址。
+void get(char &c);
 
 struct inflatable {
     string name;
@@ -16,7 +18,7 @@ struct inflatable {
     double price;
 };
 
-int main() {
+int main3() {
 
     int a = 6;
     int b = 7;
@@ -84,4 +86,14 @@ int main() {
     string string1 = "123";
     string string2 = "123";
     cout << (string1 == string2) << endl;
+
+
+    char cha = '1';
+    // 可以直接传递参数名称
+    get(cha);
+    cout << "c = " << c << endl;
+}
+
+void get(char &c) {
+    c = 'a';
 }
