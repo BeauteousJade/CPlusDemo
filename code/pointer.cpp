@@ -79,4 +79,9 @@ int main() {
 
     cout << "a1[0] value" << a1[0] << ", a1[0] address = " << &a1[0] << ", a2[0] value = " << a2[0]
          << ", a2[0] address = " << &a2[0] << ", a3[0] value = " << &a3[0] << ", a3[0] address = " << &a3[0] << endl;
+
+    // string 可以用==比较，指针和char数组要用strcmp == 0比较，等于0表示相等。
+    string string1 = "123";
+    string string2 = "123";
+    cout << (string1 == string2) << endl;
 }
