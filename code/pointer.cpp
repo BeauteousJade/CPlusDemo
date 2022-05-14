@@ -99,6 +99,8 @@ int main3() {
     int *const p7 = &a;
     *p7 = 10; // 允许修改值
 //    p7 = &b; // 不允许修改指向的地址。
+
+    const int *const p8 = &a;// 既不允许修改值，也不允许修改指向的地址。
 }
 
 void get(char &c) {
