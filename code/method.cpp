@@ -8,6 +8,8 @@ using namespace std;
 
 int sum(const int array[], int n);
 
+int sumV2(const int *begin, const int *end);
+
 const int size = 3;
 
 int main() {
@@ -23,6 +25,14 @@ int sum(int array[], int n) {
     int sum = 0;
     for (int i = 0; i < n; ++i) {
         sum += array[i];
+    }
+    return sum;
+}
+
+int sumV2(const int *begin, const int *end) {
+    int sum = 0;
+    for (const int *p = begin; p != end; p++) {
+        sum += *p;
     }
     return sum;
 }

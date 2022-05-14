@@ -92,6 +92,13 @@ int main3() {
     // 可以直接传递参数名称
     get(cha);
     cout << "c = " << c << endl;
+
+    const int *p = &a;
+//    *p = 10; // 不允许修改值。
+    p = &b; // 允许修改指向的地址。
+    int *const p7 = &a;
+    *p7 = 10; // 允许修改值
+//    p7 = &b; // 不允许修改指向的地址。
 }
 
 void get(char &c) {
