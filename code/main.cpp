@@ -5,7 +5,7 @@ using namespace std;
 
 void print();
 
-int main_() {
+int main4() {
     cout.setf(ios_base::fixed, ios_base::floatfield);
 
     short a = {SHRT_MAX};
