@@ -60,7 +60,7 @@ const string &string_v3(string &s1, const string &s2) {
 }
 
 
-int main() {
+int main_ref() {
 
     int a = 10;
     // 引用类型的变量。

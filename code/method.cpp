@@ -15,9 +15,24 @@ int sumV3(const int  (*array)[4], int size);
 
 int sumV4(const int array[][4], int size);
 
+//const 指针能够承载
+void override_test_v1(double *a) {
+    cout << "override_test_v1" << endl;
+}
+
+void override_test_v1(const double *a) {
+    cout << "override_test_v1 const" << endl;
+
+}
+
+// const引用能重载
+void override_test_v2(double &a) {}
+
+void override_test_v2(const double &a) {}
+
 const int size = 3;
 
-int main6() {
+int main_method() {
     const int tempArray[3] = {1, 2, 3};
     cout << "sizeof tempArray " << sizeof(tempArray) << endl;
     int sumNumber = sum(tempArray, size);
@@ -39,6 +54,12 @@ int main6() {
     pArray[0](tempArray2, 2);
     (*pArray[0])(tempArray2, 2);
 
+    const double a[3] = {1, 2, 3};
+    double b[3] = {1, 2, 3};
+    // const优先和const匹配，非const优先和非const匹配。
+    // 非const找不到非const,再和const匹配。
+    override_test_v1(a);
+    override_test_v1(b);
 }
 
 int sum(const int array[], int n) {
