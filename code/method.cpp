@@ -17,7 +17,7 @@ int sumV4(const int array[][4], int size);
 
 const int size = 3;
 
-int main4() {
+int main6() {
     const int tempArray[3] = {1, 2, 3};
     cout << "sizeof tempArray " << sizeof(tempArray) << endl;
     int sumNumber = sum(tempArray, size);
