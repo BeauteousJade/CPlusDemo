@@ -4,7 +4,7 @@
 
 #include "Stock.h"
 
-int main() {
+int main_stock_test() {
     Stock stock;
     stock.show();
     stock.update(10);
