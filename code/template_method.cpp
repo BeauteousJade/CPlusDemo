@@ -54,7 +54,7 @@ auto add(T1 a, T2 b) -> decltype(a + b) {
     return c;
 }
 
-int main() {
+int main_temp_method() {
     demo d1{1};
     demo d2{2};
 

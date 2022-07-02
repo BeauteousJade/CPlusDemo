@@ -46,16 +46,16 @@ int main2() {
 
     cout << name1 << " length = " << strlen(name1) << endl;
 
-//    char name[5];
-//    cin.getline(name, 5);
-//    cout << name << endl;
+//    char mName[5];
+//    cin.getline(mName, 5);
+//    cout << mName << endl;
 
 //    int year;
     char name[5];
 //    cin >> year;
 //    cin.get();
-//    cin.getline(name, 5);
-//    cout << "year = " << year << " name = " << name << endl;
+//    cin.getline(mName, 5);
+//    cout << "year = " << year << " mName = " << mName << endl;
 
 //    string string1;
 //    getline(cin, string1);
@@ -69,7 +69,7 @@ int main2() {
             2.0,
             299.9
     };
-    cout << "inflatable name = " << a.name << " volume = " << a.volume << " price = " << a.price << endl;
+    cout << "inflatable mName = " << a.name << " volume = " << a.volume << " price = " << a.price << endl;
     one4all all;
     all.int_val = 100000;
     cout << "double_val = " << all.double_val << " int_val = " << all.int_val << endl;
