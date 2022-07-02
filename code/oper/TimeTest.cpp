@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main() {
+int main_time_test() {
     Time time1(1, 10);
     Time time2(3, 55);
     Time time3 = time1 + time2;
