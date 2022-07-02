@@ -24,10 +24,16 @@ public:
 
     Time operator+(const Time &t) const;
 
+    // 二元运算符:A - B。
+    Time operator-(const Time &t) const;
+
+    // 一元运算符：-A
+    Time operator-() const;
+
     // 友元函数，不是成员函数。可以访问成员变量，不能访问成员函数。
     friend Time operator*(double m, const Time &t);
 
-    friend ostream& operator<<(ostream &os, const Time &t);
+    friend ostream &operator<<(ostream &os, const Time &t);
 
     void show() const;
 };

@@ -23,6 +23,14 @@ Time Time::operator+(const Time &t) const {
     return sum;
 }
 
+Time Time::operator-(const Time &t) const {
+    return {this->hours - t.hours, this->minutes - t.minutes};
+}
+
+Time Time::operator-() const {
+    return {-this->hours, -this->minutes};
+}
+
 Time operator*(double m, const Time &t) {
     Time res(0, 0);
     long totalMinutes = (long) (t.hours * m * 60 + t.minutes * m);
