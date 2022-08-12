@@ -10,4 +10,4 @@ add_executable(Demo code/main.cpp
         code/io_simple_test.cpp
         code/method.cpp
         code/ref.cpp
-        code/template_method.cpp code/clazz/Stock.h code/clazz/Stock.cpp code/clazz/StockTest.cpp code/oper/Time.h code/oper/Time.cpp code/oper/TimeTest.cpp code/cast_type/Stonewt.h code/cast_type/Stonewt.cpp code/cast_type/StonewtTest.cpp)
+        code/template_method.cpp code/clazz/Stock.h code/clazz/Stock.cpp code/clazz/StockTest.cpp code/oper/Time.h code/oper/Time.cpp code/oper/TimeTest.cpp code/cast_type/Stonewt.h code/cast_type/Stonewt.cpp code/cast_type/StonewtTest.cpp code/bad/StringBad.cpp code/bad/StringBad.h code/bad/StringBadTest.cpp)

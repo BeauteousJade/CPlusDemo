@@ -4,7 +4,7 @@
 
 #include "Stonewt.h"
 
-int main() {
+int main_stonewt_test() {
     Stonewt stonewt = 19.0; // 隐式转换，自动类型转换，类似于Stonewt(19.0)
 
     // 如果构造方法使用了explicit，只能显示转换。

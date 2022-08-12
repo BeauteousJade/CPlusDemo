@@ -12,6 +12,7 @@ private:
     };
     double stone; // 英石
     double pounds; // 磅
+//    static int a = 10; // 头文件不能初始化静态变量
 
 public:
     Stonewt();
