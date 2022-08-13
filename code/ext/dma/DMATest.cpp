@@ -19,7 +19,7 @@ int main() {
 
 
     cout << (*dma) << endl;
-    // 调用的是BaseDMA,不存在多态。
+    // 调用的是BaseDMA,不存在多态。只有虚方法才有多态。
     cout << (dma1) << endl;
 
 }
