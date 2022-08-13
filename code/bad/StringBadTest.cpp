@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main() {
+int main_String_bad() {
     {
         StringBad *s1 = new StringBad();
         StringBad *s2 = new StringBad();
