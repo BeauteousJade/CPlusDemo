@@ -11,7 +11,10 @@
 using namespace std;
 
 
-int main() {
+/**
+ * 继承 + 多态测试。
+ */
+int main_brass() {
     Brass brass = Brass();
     BrassPlus brassPlus = BrassPlus();
     Brass brass1 = BrassPlus();
