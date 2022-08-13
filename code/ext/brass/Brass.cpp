@@ -32,5 +32,13 @@ void Brass::viewAcct() const {
     cout << "name:" << name << ", accNum:" << accNum << ", balance:" << balance << endl;
 }
 
+void Brass::testVirtual() const {
+
+}
+
+Brass &Brass::build() {
+    return *this;
+}
+
 Brass::~Brass() {
 }

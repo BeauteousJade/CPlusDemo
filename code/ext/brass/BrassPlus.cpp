@@ -34,3 +34,11 @@ void BrassPlus::withDraw(double amt) {
         Brass::withDraw(amt);
     }
 }
+
+void BrassPlus::testVirtual(int a) const {
+
+}
+
+BrassPlus &BrassPlus::build() {
+    return *this;
+}

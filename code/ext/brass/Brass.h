@@ -26,11 +26,16 @@ public:
     // 虚函数，保证子类在重写之后，外部引用或者指针调用，调用的是真实对象类型的方法。即多态。
     // 不是虚函数，则调用的是引用或者指针对应类型的方法。
     // 如果要在定义可以被重写的方法，一般都定义为虚的。
+    // 编译器对非虚方法使用的是静态编译，编译对虚方法使用的是动态编译。
     virtual void withDraw(double amt);
 
     double getBalance() const;
 
     virtual void viewAcct() const;
+
+    virtual void testVirtual() const;
+
+    virtual Brass &build();
 
     virtual ~Brass();
 };

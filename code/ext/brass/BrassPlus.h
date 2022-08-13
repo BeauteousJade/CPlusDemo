@@ -26,6 +26,13 @@ public:
 
     virtual void withDraw(double amt);
 
+    // 重新定义继承的方法不是重载--改写了参数列表。
+    // 如果需要重载，需要申明所有的版本。即要将testVirtual无参数版本在子类里面重写定义。
+    virtual void testVirtual(int a) const;
+
+    // 虚方法的返回类型协变，即返回类型随子类类型的变化而变化。
+    virtual BrassPlus &build();
+
     void setRate(double r) { this->rate = r; }
 
     void resetOwes() { owesBank = 0; }
