@@ -10,7 +10,7 @@
  * 抽象类测试。
  */
 
-int main() {
+int main_abc() {
     AcctABC *abc1 = new BrassPlusV2("pby", 100.0);
     AcctABC *abc2 = new BrassV2("pby", 50);
 
