@@ -11,7 +11,7 @@ using namespace std;
 /**
  * 友元函数继承。
  */
-int main() {
+int main_dma() {
 
 
     HasDMA *dma = new HasDMA(10);
