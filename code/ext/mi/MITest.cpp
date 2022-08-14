@@ -16,7 +16,7 @@
  *
  */
 
-int main() {
+int main_mi() {
     Singer p("pby1");
     Waiter p1("pby2");
     SingingWaiter p2("pby3");
