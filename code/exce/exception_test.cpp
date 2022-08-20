@@ -40,7 +40,7 @@ double test2() {
     delete a;
 }
 
-int main() {
+int main_exception_test() {
     // 程序退出前执行的函数
     set_terminate(myQuit);
     test(1, 0);
