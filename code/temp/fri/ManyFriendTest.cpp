@@ -27,7 +27,7 @@ void show(C &c, D &d) {
 // 为模板类取别名。
 typedef array<int, 10> arrInt;
 
-int main() {
+int main_many_friend() {
     ManyFriend<int> f1(1);
     ManyFriend<double> f2(2.0);
     show(f1, f2);
