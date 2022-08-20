@@ -5,7 +5,7 @@
 
 #include "TV2.h"
 
-int main() {
+int main_tv_v2() {
     TV2 tv;
     RemoteV2 remote;
     remote.setMode(tv, 11);
