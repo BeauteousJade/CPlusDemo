@@ -41,5 +41,8 @@ int main() {
         delete[] array[i];
     }
     cout << "11" << endl;
+
+    int base_addr;
+//    sscanf("", "%" PRIxPTR "-%*lx %*4s 00000000", &base_addr);
 }
 

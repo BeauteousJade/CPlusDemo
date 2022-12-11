@@ -5,7 +5,7 @@
 #include "Animal.h"
 #include "Dog.h"
 
-int main() {
+int main_animal_test() {
     Animal *a1 = new Animal("pby");
     Animal *a2 = new Dog("pby2");
     Animal *a3 = new Dog("pby3");
