@@ -7,7 +7,10 @@
 
 using namespace std;
 
-int main() {
+/**
+ * String 模板类Demo。
+ */
+int string_test_main() {
     string one("pby");
     cout << one << endl;
 
