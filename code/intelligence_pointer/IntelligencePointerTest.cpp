@@ -69,7 +69,7 @@ void test_ip_7(unique_ptr<string> &ps) { // 传递引用，因为非引用会开
     cout << *ps << endl;
 }
 
-int main() {
+int main_test_ip() {
     test_ip_4();
     // 如果源unique_ptr 是一个临时右值，是允许赋值的，因为右值不会有机会在使用。
     unique_ptr<string> ps = test_ip_6();
